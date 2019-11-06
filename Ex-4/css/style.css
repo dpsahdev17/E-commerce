@@ -1,0 +1,119 @@
+@font-face {
+  font-family: Tahoma;
+  src: url('css/Tahoma.ttf');
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Tahoma;
+}
+.padd-t-40 {
+  padding-top: 40px;
+}
+.padd-row {
+  padding-top: 25px;
+  padding-bottom: 38px;
+}
+.container-fluid {
+  width: 100%;
+}
+.container {
+  width: 780px;
+  margin: 0px auto;
+}
+/*starting of header*/
+header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+header h1 {
+  text-transform: uppercase;
+  color: #585657;
+  font-size: 20px;
+  position: relative;
+}
+header h1:after {
+  content: "";
+  position: absolute;
+  background-color: #ededed;
+  width: 2px;
+  height: 26px;
+  top: 0px;
+  left: 141px;
+}
+ul {
+  display: flex;
+  padding-right: 225px;
+  padding-top: 2px;
+}
+ul li {
+  list-style-type: none;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+ul li a {
+  text-decoration: none;
+  color: #a5a5a5;
+}
+/*end of header*/
+
+/*starting of banner*/
+.banner img {
+  width: 100%;
+}
+/*end of banner*/
+
+/*starting of product*/
+.title {
+  text-align: center;
+  color: #6c6c6c;
+  text-transform: uppercase;
+  font-size: 17px;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+.col {
+  width: 235px;
+}
+.product-item {
+  border: 2px solid #f6f4f5;
+}
+.product-image {
+  text-align: center;
+}
+.product-info {
+  padding-top: 15px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.product-info h3 {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 100;
+  color: #909090;
+}
+.product-info p {
+  text-align: center;
+  color: #686868;
+  font-weight: bold;
+  padding-top: 2px;
+}
+sup {
+  font-size: 10px;
+}
+/*starting of brand*/
+.brand {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+.brand-image img {
+  width: 125px;
+  height: 60px;
+}
+/*end of brand*/
+/*end of product*/
